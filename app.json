@@ -8,23 +8,23 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": ""
+      "value": "5142941437:AAEBN1enG6Prvl0PACE2fsJpqqoxvUDR6Lc"
     },
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "5412484"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "37402de39e5eb30d378bf20823db1dfc"
     },
     "BASE_URL_OF_BOT": {
       "description": "https://appname.herokuapp.com",
-      "value": ""
+      "value": "https://torxxkami.herokuapp.com"
     },
     "AUTH_CHANNEL": {
       "description": "ALLOWED USERS [ids of user or supergroup] seperate by spaces",
-      "value": ""
+      "value": "1883113120"
     },
     "GD_INDEX_URL": {
       "description": "gdrive index link",
@@ -37,7 +37,7 @@
     },
     "FORCE_DOCUMENTS": {
       "description": "Should force evething uploaded into Document",
-      "value": "True"
+      "value": "False"
     },
     "COMPLETED_STR": {
       "description": "Character to use as a completed progress",
@@ -49,7 +49,7 @@
     },
     "RCLONE_ENABLED": {
       "description": "Will be enabled once its set",
-      "value": "False"
+      "value": "True"
     },
     "RCLONE_CONFIG": {
       "description": "path to rclone.conf, if you uploaded rclone.conf, it should be at /app/rclone.conf",
@@ -67,7 +67,7 @@
     },
     "MAX_YTPLAYLIST_SIZE": {
       "description": " Max size of a playlist that is allowed (Number of videos)",
-      "value": "20",
+      "value": "100",
       "required": false
     },
     "MAX_TORRENT_SIZE": {
@@ -103,6 +103,7 @@
     },
     "OWNER_ID": {
       "description": "Used to restrict use of certain stuff to owner only.",
+      "value": "1883113120",
       "required": false
     } 
   },
